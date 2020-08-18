@@ -21,7 +21,7 @@ def consolidate_cart(cart)
         item[:count] = 0
     end
     item.count do
-      if item
+    end
   end
 end
 

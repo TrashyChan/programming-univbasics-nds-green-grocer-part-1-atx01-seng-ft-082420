@@ -20,8 +20,7 @@ def consolidate_cart(cart)
     if !item[:count]
         item[:count] = 0
     end
-    # binding.pry
-    
+    if 
   end
 end
 

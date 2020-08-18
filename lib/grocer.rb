@@ -20,6 +20,7 @@ def consolidate_cart(cart)
     if !item[:count]
         item[:count] = 1
     end
+    
   end
 end
 

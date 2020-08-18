@@ -18,7 +18,7 @@ def consolidate_cart(cart)
   
   cart.each do |item|
     if !item[:count]
-        item[:count] = 1
+        item[:count] = 0
     end
   end
 end
